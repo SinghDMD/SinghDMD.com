@@ -7,6 +7,6 @@ $(document).ready(function(){
     $("#page-footer").load("/assets/include/footer.html"); 
 
      $('#page-loader').fadeOut(500, function() {
-        $('#main-content').fadeIn(500);
+        $('body').fadeIn(500);
     });
 });
