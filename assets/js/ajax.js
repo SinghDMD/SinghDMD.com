@@ -6,7 +6,7 @@ $(document).ready(function () {
     $("#page-footer").addClass("footer py-4 bg-dark text-light text-center");
     $("#page-footer").load("/assets/include/footer.html");
 
-    $('#page-loader').fadeOut(500, function () {
-        $('body').fadeIn(500);
+    $("#page-loader").fadeOut(500, function () {
+        $("body").fadeIn(500);
     });
 });
